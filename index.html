@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studvya — documentos</title>
+<meta name="description" content="Política de Privacidade, Termos de Uso e exclusão de conta do aplicativo Studvya.">
+<style>
+  :root {
+    --fundo: #ffffff;
+    --superficie: #f6f7f9;
+    --borda: #e3e6ea;
+    --texto: #14161a;
+    --texto-suave: #5a626e;
+    --marca: #2f7d72;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fundo: #101215;
+      --superficie: #181b20;
+      --borda: #2a2f37;
+      --texto: #eef1f5;
+      --texto-suave: #a3adba;
+      --marca: #5fb8a9;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fundo: #101215;
+    --superficie: #181b20;
+    --borda: #2a2f37;
+    --texto: #eef1f5;
+    --texto-suave: #a3adba;
+    --marca: #5fb8a9;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--texto);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .35rem; }
+  .sub { color: var(--texto-suave); margin: 0 0 2.5rem; }
+
+  a.cartao {
+    display: block;
+    background: var(--superficie);
+    border: 1px solid var(--borda);
+    border-radius: .6rem;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: .9rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  a.cartao:hover { border-color: var(--marca); }
+  a.cartao strong { display: block; color: var(--marca); margin-bottom: .2rem; }
+  a.cartao span { color: var(--texto-suave); font-size: .93rem; }
+
+  footer {
+    margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--borda);
+    color: var(--texto-suave); font-size: .875rem;
+  }
+  footer a { color: var(--marca); }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Studvya</h1>
+  <p class="sub">Entenda. Pratique. Domine.</p>
+
+  <a class="cartao" href="privacidade.html">
+    <strong>Política de Privacidade</strong>
+    <span>Quais dados o aplicativo coleta, para onde vão e por quanto tempo ficam.</span>
+  </a>
+
+  <a class="cartao" href="termos.html">
+    <strong>Termos de Uso</strong>
+    <span>As regras de uso do aplicativo, assinaturas e créditos.</span>
+  </a>
+
+  <a class="cartao" href="exclusao-de-conta.html">
+    <strong>Excluir sua conta</strong>
+    <span>Como apagar sua conta e seus dados, o que some e o que é mantido.</span>
+  </a>
+
+  <footer>
+    <p>
+      Studvya — Felipe Locatelli ·
+      <a href="mailto:felipelocatelli1985@gmail.com">felipelocatelli1985@gmail.com</a>
+    </p>
+  </footer>
+
+</main>
+</body>
+</html>
